@@ -1,0 +1,31 @@
+body {
+    background-color: #f4f6f8;
+    font-family: Arial, sans-serif;
+}
+
+/* Card hover */
+.card {
+    transition: box-shadow 0.2s ease;
+}
+.card:hover {
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* Table hover */
+table tr:hover {
+    background-color: #f5f9ff;
+}
+
+/* Buttons */
+button {
+    transition: transform 0.15s ease;
+}
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Badges */
+.badge {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+}
