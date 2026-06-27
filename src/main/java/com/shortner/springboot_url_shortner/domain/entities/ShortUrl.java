@@ -14,7 +14,7 @@ public class ShortUrl {
     @Column(unique = true, nullable = false)
     private String shortKey;
 
-    @Column(nullable = false)
+    @Column(columnDefinition = "TEXT")
     private String originalUrl;
 
     @ManyToOne(fetch = FetchType.LAZY)
