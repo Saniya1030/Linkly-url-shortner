@@ -1,6 +1,5 @@
 package com.shortner.springboot_url_shortner.domain.entities;
 
-import com.shortner.springboot_url_shortner.modals.UserDto;
 import jakarta.persistence.*;
 import org.springframework.context.support.BeanDefinitionDsl;
 
